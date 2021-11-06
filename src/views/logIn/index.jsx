@@ -54,11 +54,14 @@ const LogIn = (props) => {
   return (
     <div>
       <div className="container-fluid bg-dark sticky-top vh-100">
-        <div className="row d-flex justify-content-center ">
-          <form className="col-12 bg-dark bg-gradient rounded w-25 my-5">
+        <div
+          className="row m-auto d-flex justify-content-center "
+          style={{ maxWidth: "400px" }}
+        >
+          <form className="col-12 bg-dark bg-gradient rounded w-100 my-5">
             <NavLink
               to="/admin"
-              className="sidebar__logo fs-1 fw-bold mb-5 text-center d-block mt-3 text-decoration-none"
+              className=" fs-1 fw-bold mb-5 text-center d-block mt-3 text-decoration-none"
             >
               <span className="text-warning">HOT</span>
               <span className="text-white">FLIX</span>

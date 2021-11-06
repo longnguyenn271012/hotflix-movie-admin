@@ -13,7 +13,7 @@ const Sidebar = (props) => {
   };
 
   return (
-    <div className="p-3 vh-100 container">
+    <div className="p-3  container">
       <div className="row d-flex justify-content-between">
         <div className="row col-12 col-lg-12">
           <div className="col-12 col-lg-12 fs-1 fw-bolder mb-5 text-center">
@@ -52,29 +52,29 @@ const Sidebar = (props) => {
           </div>
         </div>
         <div className="row col-12 col-lg-12 bg-transparent">
-          <ul className="list-group ">
-            <li className="col-4 col-lg-12 list-group-item bg-transparent">
-              <NavLink to="/admin" className="text-decoration-none">
-                <a href="#" className="text-white text-decoration-none ">
-                  <i class="fa fa-th-list pe-2 text-warning fs-4 px-1"></i>
-                  DASHBOARD
-                </a>
+          <ul className="list-group row mx-auto">
+            <li className="col-12 list-group-item bg-transparent">
+              <NavLink to="/admin" className=" text-decoration-none text-white">
+                <i class="fa fa-th-list pe-2 text-warning fs-4 px-1"></i>
+                DASHBOARD
               </NavLink>
             </li>
-            <li className="col-4 col-lg-12 list-group-item bg-transparent">
-              <NavLink to="/admin/users" className="text-decoration-none">
-                <a href="#" className="text-white text-decoration-none">
-                  <i class="fa fa-users pe-2 text-warning fs-4"></i>
-                  USERS
-                </a>
+            <li className="col-12 list-group-item bg-transparent">
+              <NavLink
+                to="/admin/users"
+                className=" text-white text-decoration-none"
+              >
+                <i class="fa fa-users pe-2 text-warning fs-4"></i>
+                USERS
               </NavLink>
             </li>
-            <li className="col-4 col-lg-12 list-group-item bg-transparent">
-              <NavLink to="/admin/movies" className="text-decoration-none">
-                <a href="#" className="text-white text-decoration-none">
-                  <i class="fa fa-film pe-2 text-warning fs-4 px-1"></i>
-                  MOVIES
-                </a>
+            <li className="col-12 list-group-item bg-transparent">
+              <NavLink
+                to="/admin/movies"
+                className=" text-white text-decoration-none"
+              >
+                <i class="fa fa-film pe-2 text-warning fs-4 px-1"></i>
+                MOVIES
               </NavLink>
             </li>
           </ul>

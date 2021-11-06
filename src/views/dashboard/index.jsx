@@ -88,7 +88,7 @@ const Dashboard = (props) => {
 
         <div className="row">
           <div className="col-12 col-sm-6">
-            <div className="row bg-dark bg-gradient rounded mx-auto px-4 py-2">
+            <div className="row bg-dark bg-gradient rounded mx-auto px-4 py-2 mt-3">
               <div className="col-12 col-sm-9">
                 <span className="fs-6">Movies Total</span>
                 <br />
@@ -101,7 +101,7 @@ const Dashboard = (props) => {
           </div>
 
           <div className="col-12 col-sm-6">
-            <div className="row bg-dark bg-gradient rounded mx-auto px-4 py-2">
+            <div className="row bg-dark bg-gradient rounded mx-auto px-4 py-2 mt-3">
               <div className="col-12 col-sm-9">
                 <span className="fs-6">Users Total</span>
                 <br />
