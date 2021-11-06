@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demo-hotflix-admin/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/demo-hotflix-admin/static/js/main.c6875453.chunk.js",
+    "main.js.map": "/demo-hotflix-admin/static/js/main.c6875453.chunk.js.map",
+    "runtime-main.js": "/demo-hotflix-admin/static/js/runtime-main.44fee48f.js",
+    "runtime-main.js.map": "/demo-hotflix-admin/static/js/runtime-main.44fee48f.js.map",
+    "static/js/2.347e0a6a.chunk.js": "/demo-hotflix-admin/static/js/2.347e0a6a.chunk.js",
+    "static/js/2.347e0a6a.chunk.js.map": "/demo-hotflix-admin/static/js/2.347e0a6a.chunk.js.map",
+    "static/js/3.219757b0.chunk.js": "/demo-hotflix-admin/static/js/3.219757b0.chunk.js",
+    "static/js/3.219757b0.chunk.js.map": "/demo-hotflix-admin/static/js/3.219757b0.chunk.js.map",
+    "index.html": "/demo-hotflix-admin/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/demo-hotflix-admin/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.347e0a6a.chunk.js.LICENSE.txt": "/demo-hotflix-admin/static/js/2.347e0a6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44fee48f.js",
+    "static/js/2.347e0a6a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.c6875453.chunk.js"
+  ]
+}
